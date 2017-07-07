@@ -1,4 +1,7 @@
 /.settings/
 /.project
 /target/
+<<<<<<< HEAD
 /.classpath
+=======
+>>>>>>> branch 'master' of https://github.com/alexkachanov/java-app-template.git
