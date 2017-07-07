@@ -40,9 +40,9 @@
 
 	<build>
 		<defaultGoal>build</defaultGoal>
-
+	
 		<plugins>
-
+	
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -52,11 +52,11 @@
 					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
-
+	
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
-				<version>3.0.2</version>
+				<version>3.0.0</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 					<resources>
@@ -67,11 +67,11 @@
 					</resources>
 				</configuration>
 			</plugin>
-
+	
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.0.2</version>
+				<version>3.0.0</version>
 				<configuration>
 					<archive>
 						<manifest>
@@ -81,7 +81,7 @@
 					</archive>
 				</configuration>
 			</plugin>
-
+	
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -102,8 +102,8 @@
 					</execution>
 				</executions>
 			</plugin>
-
+	
 		</plugins>
-
-	</build>
-</project>
+	
+		</build>
+	</project>
