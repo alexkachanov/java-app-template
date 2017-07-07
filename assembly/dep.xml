@@ -2,9 +2,11 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
 	<id>release</id>
+	
 	<formats>
 		<format>zip</format>
 	</formats>
+	
 	<includeBaseDirectory>false</includeBaseDirectory>
 
 	<fileSets>
@@ -17,7 +19,7 @@
 		</fileSet>
 		
 		<fileSet>
-			<directory>${project.basedir}</directory>
+			<directory>${project.build.directory}</directory>
 			<outputDirectory>libs</outputDirectory>
 			<includes>
 				<include>*.jar</include>
@@ -27,7 +29,7 @@
 		
 		<fileSet>
 			<directory>${project.build.directory}</directory>
-			<outputDirectory>logs/</outputDirectory>
+			<outputDirectory>logs</outputDirectory>
 			<excludes>
 				<exclude>**/*</exclude>
 			</excludes>
@@ -37,7 +39,7 @@
 	<dependencySets>
 		<dependencySet>
 			<scope>runtime</scope>
-			<outputDirectory>libs/</outputDirectory>
+			<outputDirectory>libs</outputDirectory>
 		</dependencySet>
 	</dependencySets>
 
