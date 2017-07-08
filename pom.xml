@@ -65,7 +65,7 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -73,13 +73,13 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.kachanov.app.Main</mainClass>
+							<mainClass>org.apache.camel.spring.Main</mainClass>
 							<addClasspath>true</addClasspath>
 						</manifest>
 					</archive>
 				</configuration>
 			</plugin>
-
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -100,9 +100,6 @@
 					</execution>
 				</executions>
 			</plugin>
-
-			
-
 		</plugins>
 
 	</build>
