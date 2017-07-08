@@ -73,7 +73,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>org.apache.camel.spring.Main</mainClass>
+							<mainClass>com.kachanov.app.Main</mainClass>
 							<addClasspath>true</addClasspath>
 						</manifest>
 					</archive>
