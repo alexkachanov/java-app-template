@@ -65,6 +65,7 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
+<<<<<<< HEAD
 			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -79,6 +80,8 @@
 					</archive>
 				</configuration>
 			</plugin>
+=======
+>>>>>>> branch 'master' of https://github.com/alexkachanov/java-app-template.git
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -100,8 +103,28 @@
 					</execution>
 				</executions>
 			</plugin>
+<<<<<<< HEAD
+=======
 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.0.2</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.kachanov.app.Main</mainClass>
+							<addClasspath>true</addClasspath>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+>>>>>>> branch 'master' of https://github.com/alexkachanov/java-app-template.git
+
+<<<<<<< HEAD
 			
+=======
+>>>>>>> branch 'master' of https://github.com/alexkachanov/java-app-template.git
 
 		</plugins>
 
